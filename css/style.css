@@ -1,0 +1,79 @@
+/*header*/
+.header-image-box {
+  position: relative;
+}
+
+.background-img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+
+.background-img img {
+  width: 100%;
+}
+
+.header-wrapper {
+  position: absolute;
+  left: 385.938px;
+  top: 240px;
+}
+
+.header-wrapper h2 {
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  color: #eff2f5;
+  text-align: center;
+}
+
+.header-wrapper h1 {
+  font-size: 55px;
+  font-family: 'Montserrat', sans-serif;
+  color: #eff2f5;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-wrapper .tellme {
+  border-radius: 3px;
+  background-color: #fed136;
+  left: 580px;
+  top: 475px;
+  width: 240px;
+  height: 65px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #eff2f5;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo-holder {
+  position: absolute;
+  left: 235.937px;
+  top: 39.497px;
+}
+
+.navigation {
+  position: absolute;
+  left: 688.937px;
+  top: 39.497px;
+}
+
+.navigation ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 34px;
+}
+
+.navigation ul li a {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: #eff2f5;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
