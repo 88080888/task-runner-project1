@@ -1,82 +1,137 @@
-$color-light: #eff2f5;
+$color-light: white;
 $color-dark: #000000;
 $header-font: "Miriam Libre", sans-serif;
-$text-font: "Gruppo", cursive;
+$text-font: 'Montserrat', sans-serif;
 
 /*header*/
-.container-header {
-    display: block;
-}
 .header-image-box {
-    position: relative;
-
-}
-.background-img {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    img { 
+    position: relative; 
+    .background-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
         width: 100%;
+        img {width: 100%
+        }
     }
-} 
-    
-.header-wrapper {
-    position: absolute;
-    left: 385.938px;
-    top: 240px;
-    h2 {
-        font-size: 40px;
-        font-family: 'Montserrat', sans-serif;;
-        color: $color-light;
+    .logo-holder {
+        position: absolute;
+        display: flex;
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        right: 80%;
+    }
+    .header-wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
         text-align: center;
-    }
-    h1 {
-        font-size: 55px;
-        font-family: 'Montserrat', sans-serif;;
-        color: $color-light;
-        font-weight: bold;
-        text-align: center;
-    }
-    .tellme {
-        border-radius: 3px;
-        background-color: rgb(254, 209, 54);
-        left: 580px;
-        top: 475px;
-        width: 240px;
-        height: 65px;
-        font-size: 18px;
-        font-family: 'Montserrat', sans-serif;;
-        color: $color-light;
-        font-weight: bold;
-        text-align: center;
-        display: block; 
-        margin: 0 auto;
-    }
-}
-.logo-holder {
-    position: absolute;
-    left: 235.937px;
-    top: 39.497px;
-}
-.navigation {
-    position: absolute;
-    left: 688.937px;
-    top: 39.497px;
-    
-    ul {
-        li{
-            display: inline-block;
-            text-decoration: none;
-            list-style-type: none;
-            padding-right: 34px;
-            a {
-                font-size: 14px;
-                font-family: "Montserrat";
-                color: $color-light;
-                text-decoration: none;
+        h2 {
+            font-size: 40px;
+            font-family: $text-font;
+            color: $color-light;
+            font-style: italic;
+            line-height: 1.2;
+            text-align: center;
+        }
+        h1 {
+            font-size: 55px;
+            font-weight: bold;
+            line-height: 1.2;
+            text-align: center;
+            font-family: $text-font;
+            color: $color-light;
+        }
+        button {
+            border-radius: 3px;
+            background-color: rgb(254, 209, 54);   
+            top: 475px;
+            width: 240px;
+            height: 65px;
+            font-size: 18px;
+            font-family: $text-font;
+            color: $color-light;
+            font-weight: bold;
+        }
+    } 
+    .navigation {
+        display: flex;
+        display: inline-block;
+        position: absolute;
+        top: 40px;
+        right: 10%;
+        ul {
+            display: flex;
+            li {
+                list-style-type: none;
+                a {
+                    display: inline-block;
+                    text-decoration: none;                  
+                    padding-right: 34px;
+                    font-family: $header-font;
+                    color: $color-light;
+                    font-size: 15px;
+                }
             }
+        }
+    }  
+}
+
+/*services*/
+.services-box {
+    position: relative;
+    text-align: center;
+    .title-box {
+        display:inline-block;
+        margin-top:50px;
+        h2 {
+            font-size: 40px;
+            font-family: $header-font;
+            color: $color-dark;
+            font-weight: bold;
+        }
+        p {
+            font-size: 16px;
+            color: $color-dark;
+            font-family: $text-font;
+            font-style: italic;
+        }
+    }
+    .service-cards {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-family: $text-font;
+        margin: 70px 200px;
+        .row {
+
         }
     }
 }
-  
+.col-4 {
+    i {
+        background-color: #fff;
+        font-size: 27px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: 3px solid yellow;
+        color: yellow;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+    h3 {
+        a {
+        text-align: center;
+        text-decoration: none;
+        color: $color-dark;
+        }
+    }    
+    p {
+        font-size: 13px;
+    }
+}
