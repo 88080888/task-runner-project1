@@ -1,4 +1,8 @@
 /*header*/
+.container-header {
+  display: block;
+}
+
 .header-image-box {
   position: relative;
 }
