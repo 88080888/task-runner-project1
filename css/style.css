@@ -97,6 +97,8 @@
 .services-box {
   position: relative;
   text-align: center;
+  max-width: 100%;
+  min-height: 600px;
 }
 
 .services-box .title-box {
@@ -149,5 +151,64 @@
 
 .col-4 p {
   font-size: 13px;
+}
+
+/*portfolio*/
+.portfolio-box {
+  position: relative;
+  max-width: 100%;
+  min-height: 1200px;
+  background-color: #f7f7f7;
+  color: black;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 570px;
+  padding: 50px 10px;
+}
+
+.portfolio-box .title-box {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.portfolio-box .title-box h2 {
+  font-size: 40px;
+  font-family: "Miriam Libre", sans-serif;
+  color: #000000;
+  font-weight: bold;
+}
+
+.portfolio-box .title-box p {
+  font-size: 16px;
+  color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+
+.portfolio-box .portfolio-cards {
+  margin: 50px 150px;
+}
+
+.row .img-container {
+  background: white;
+  padding: 0;
+  border: 0;
+  max-width: 290px;
+  max-height: 400px;
+  margin: 20px 20px;
+}
+
+.row .img-container h3 {
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.row .img-container p {
+  background: white;
+  margin: 0;
+  font-style: italic;
+  margin-bottom: 20px;
+  color: grey;
 }
 /*# sourceMappingURL=style.css.map */
