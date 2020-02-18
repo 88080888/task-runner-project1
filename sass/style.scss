@@ -249,7 +249,53 @@ $text-font: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 375px) {
-.services-box .service-card {
+.services-box .service-cards  {
     margin: 0;
 }    
+.header-image-box {
+    justify-content: center;
+    max-height: 400px;
+    .header-wrapper {
+        margin: auto;
+        h2 {
+        font-size: 15px;
+        }
+        h1 {
+        font-size: 18px;
+        }
+        button {
+            height: 40px;
+            width: 150px;
+            font-size: 13px;
+        }    
+    }
+}
+.services-box .title-box {
+    margin-top: 0;
+}
+.portfolio-box {
+    .title-box {
+        margin-top: 0;
+    }
+    .portfolio-cards {
+        margin: 0;
+    }
+}
+p.footer-par {
+    font-size: 10px;
+}
+
+.list-inline {
+    padding-left: 0;
+}
+.mediaicon-1,
+.mediaicon-2,
+.mediaicon-3,
+.mediaicon-4 {
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+    padding-left: 4px;
+    padding-top: 3px;
+}
 }
